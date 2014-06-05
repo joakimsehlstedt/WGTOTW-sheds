@@ -31,6 +31,6 @@ Installation
 
 Run gitclone and you should be up n running straight away.
 
-```git clone https://github.com/dbwebb/hello```
+```git clone https://github.com/joxiba/WGTOTW-sheds```
 
 Copyright &copy; 2014 Joakim Sehlstedt
