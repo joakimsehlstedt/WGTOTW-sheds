@@ -29,7 +29,8 @@ The following external modules are included and subject to its own license.
 Installation
 -----------------------------------
 
-###History for WGTOTW
 Run gitclone and you should be up n running straight away.
+
+```git clone https://github.com/dbwebb/hello```
 
 Copyright &copy; 2014 Joakim Sehlstedt
