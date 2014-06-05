@@ -1,4 +1,4 @@
-gardenshed's, we love them!
+gardensheds, we love them!
 ------------------------------------
  
 A shed is typically a simple, single-storey structure in a back garden or on an allotment that is used for storage, hobbies, or as a workshop.
