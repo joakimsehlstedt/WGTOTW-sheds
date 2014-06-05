@@ -1,0 +1,33 @@
+/**
+ * General elements
+ */
+html {
+  font-family: Open Sans, sans-serif;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+
+}
+
+#header, #footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#sitelogo {
+  visibility: hidden;
+}
+
+#sitetitle {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+#siteslogan {
+  font-size: 2.5em;
+  color: #B6E052;
+}

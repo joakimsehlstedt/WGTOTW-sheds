@@ -1,0 +1,249 @@
+/**
+ * CSS For comment system.
+ *
+ */
+
+ul.post-list {
+    margin: 0;
+    padding: 0;
+}
+
+ul.post-list-answer {
+    margin-left: 15px;
+}
+
+li.post {
+    clear: both;
+    padding: 10px 0; 
+    list-style: none;
+    min-height: 60px;
+}
+
+.answers {
+  float: left;
+}
+
+.divider {
+  clear: both;
+  float: left;
+  width: 960px;
+}
+
+.add-comment {
+  font-size: 1.5em;
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.add-comment a {
+  text-decoration: none;
+  color: #666;
+}
+
+.post-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.post-body {
+    min-height: 60px;
+    width: 650px;
+    float: left;
+    font-size: 14px;
+}
+
+.avatar {
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
+    float: left;
+}
+
+.post-header {
+    
+}
+
+.post-name {
+    font-weight: bold;
+    background-color: #ddd;
+    padding: 1px 4px;
+}
+
+.post-id {
+    color: #79a81b;
+}
+
+.answer {
+  color: #000;
+}
+
+.post-menu {
+  margin-left: 10px;
+}
+
+.post-menu a {
+  margin-left: 6px;
+}
+
+.myButton {
+	background-color:#99cd32;
+	border:1px solid #cccccc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:11px;
+	padding:1px 5px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#79a81b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.post-content {
+  font-size:11px;
+}
+
+.post-tags {
+  font-size:9px;
+  margin-top: 2px;
+}
+
+.post-tags a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.post-tags a:hover {
+  color: #FFFFFF;
+}
+
+.tag-cloud {
+  margin-left: 30%;
+  width: 400px;
+}
+
+.tag-button {
+  background-color: #B6E052;
+  padding: 0 3px;
+}
+
+.tag-button-large {
+  background-color: #B6E052;
+  padding: 0 5px;
+  margin-right: 5px;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.post-button-large {
+  background-color: #ddd;
+  padding: 0 5px;
+  margin-right: 5px;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.tag-button-large a, .post-button-large a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.post-footer {
+    color: #999;
+    font-style: italic;
+    font-size:11px;
+}
+
+.comment-form {
+    padding-top: 15px;
+}
+
+/**
+ * Style for comment system forms
+ */
+label {
+  font-size: smaller;
+}
+
+input[type=text],
+input[type=password] {
+  font-size: 12px;
+  width: 20%;
+  height: 12px;
+}
+
+input[type=submit],
+input[type=reset] {
+  font-size: 10px;
+}
+
+textarea {
+  font-size: 12px;
+  width: 95%;
+  height: 200px;
+}
+
+.buttons {
+  padding-top: 5px;
+  padding-bottom: 5px;
+} 
+
+fieldset {
+    border: 1px solid #99cd32;
+    font-size: 14px;
+}
+
+label {
+    font-size: 10px;
+}
+
+
+/**
+ * Style for comment system stats view
+ */
+#stats {
+  width: 100%;
+}
+
+.stats-col {
+  width: 300px;
+  text-align: center;
+}
+
+
+/**
+ * Style for user blob
+ */
+.user-blob-wrapper {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.user-blob {
+  width: 300px;
+  height: 65px;
+  float: left;
+}
+
+.user-blob a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.user-text {
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+
+
+
+
+

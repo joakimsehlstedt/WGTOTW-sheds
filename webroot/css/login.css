@@ -1,0 +1,35 @@
+html {
+	background: #CCCCCC;
+}
+
+label {
+	visibility: hidden;
+	font-size: 0px;
+	max-height: 0px;
+}
+
+#main {
+	margin-left: 40%;
+    width: 400px;
+}
+
+.pure-form {
+
+}
+
+.pure-input-1-2 {
+	width: 400px;
+}
+
+#wrapper {
+	margin-top: 50px;
+}
+
+#sitetitle {
+  font-size: 1.5em;
+}
+
+#siteslogan {
+  font-size: 1.5em;
+  color: #000000;
+}

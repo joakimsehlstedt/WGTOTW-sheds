@@ -1,0 +1,140 @@
+[
+    {
+        "name": "mos/cform",
+        "version": "2.x-dev",
+        "version_normalized": "2.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/cform.git",
+            "reference": "5c574483c84ce9b1f38b9e48266a3cd15aa64f63"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/cform/zipball/5c574483c84ce9b1f38b9e48266a3cd15aa64f63",
+            "reference": "5c574483c84ce9b1f38b9e48266a3cd15aa64f63",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2014-05-05 20:39:37",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Mos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "Classes for HTML Forms",
+        "homepage": "http://dbwebb.se/",
+        "keywords": [
+            "Forms",
+            "education",
+            "html"
+        ]
+    },
+    {
+        "name": "mos/cdatabase",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/cdatabase.git",
+            "reference": "f48498776ff6361dceed9dc57ce8dc03d6510ca1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/cdatabase/zipball/f48498776ff6361dceed9dc57ce8dc03d6510ca1",
+            "reference": "f48498776ff6361dceed9dc57ce8dc03d6510ca1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2014-04-17 09:32:55",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Mos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP classes for database handling upon PDO",
+        "homepage": "http://dbwebb.se",
+        "keywords": [
+            "education",
+            "framework",
+            "micro",
+            "module",
+            "mvc"
+        ]
+    },
+    {
+        "name": "jox/cemail",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/joxiba/cemail.git",
+            "reference": "d1cb18bd129c83c0ae640f4e4aac2915292ae309"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/joxiba/cemail/zipball/d1cb18bd129c83c0ae640f4e4aac2915292ae309",
+            "reference": "d1cb18bd129c83c0ae640f4e4aac2915292ae309",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2014-05-08 12:21:13",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Jox\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Joakim Sehlstedt",
+                "email": "joxiba@icloud.com",
+                "homepage": "https://github.com/joxiba",
+                "role": "Developer"
+            }
+        ],
+        "description": "Classes for sending email",
+        "homepage": "https://github.com/joxiba",
+        "keywords": [
+            "email"
+        ]
+    }
+]
