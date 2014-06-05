@@ -1,4 +1,4 @@
-<i class="fa fa-stack-exchange fa-2x"></i>
+<img src="<?= $this->url->create('../favicon.png') ?>" height="32">
 <span id='sitetitle'> <?=$siteTitle?></span>
 <span id='siteslogan'><?=$siteTagline?></span>
 <!--
