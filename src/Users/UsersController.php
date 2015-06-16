@@ -491,7 +491,7 @@ class UsersController implements \Anax\DI\IInjectionAware {
 
 			if ($dbres) {
 				// Login the user
-		        if ($acronym == $dbres->acronym) {           
+		        if ($acronym == $dbres->acronym && password_verify($password, $dbres->password)) {           
 		            $form->AddOutput = "User logged in successfully.";
 		            $_SESSION['authenticated']['valid'] = true;
 		            $_SESSION['authenticated']['user'] = $dbres;
