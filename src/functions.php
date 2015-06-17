@@ -4,7 +4,19 @@
  *
  */
 
-
+/**
+ * Utility for password verification, php 5.5 style.
+ *
+ * @param string, $password      
+ * @param string, $hash   
+ *
+ * @return boolean
+ */
+if (!function_exists('password_verify')){
+    function password_verify($password, $hash){
+        return (crypt($password, $hash) === $hash);
+    }
+}
 
 /**
  * Utility for debugging.
@@ -17,8 +29,6 @@ function dump($array)
 {
     echo "<pre>" . htmlentities(print_r($array, 1)) . "</pre>";
 }
-
-
 
 /**
  * Sort array but maintain index when compared items are equal.
