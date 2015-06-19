@@ -29,7 +29,7 @@ The following external modules are included and subject to its own license.
 Installation
 -----------------------------------
 
-Run gitclone and you should be up n running straight away. Just make sure your database in webroot/data is writable.
+Run git clone and you should be up n running straight away. Just make sure your database in webroot/data is writable.
 
 ```git clone https://github.com/joxiba/WGTOTW-sheds```
 
